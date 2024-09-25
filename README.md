@@ -1,4 +1,12 @@
-<img width="1800" alt="347042676-a7dd73b6-93de-484d-84e0-e7f4e299167b" src="https://github.com/user-attachments/assets/cfbd5280-e316-4c54-8fc2-36fc2d3fc6f8">
+
+<img width="1800" alt="347042676-a7dd73b6-93de-484d-84e0-e7f4e299167b" src="https://github.com/user-attachments/assets/36049d32-ac21-4068-aab6-83a507018a58">
+
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
+  </div>
 
 🤖 Introduction
 HealthcarePulse is a healthcare management app allowing patients to register, book, and manage appointments with doctors. It offers scheduling, confirmation, and cancellation tools, along with SMS notifications. Built with Next.js, Appwrite, Typescript, TailwindCSS, ShadCN, and Twilio for modern functionality and seamless performance.
