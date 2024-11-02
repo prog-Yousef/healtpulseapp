@@ -1,8 +1,13 @@
 "use client"
 
+import { E164Number } from "libphonenumber-js/core";
+import Image from "next/image";
+/* import ReactDatePicker from "react-datepicker"; */
+import { Control } from "react-hook-form";
+import PhoneInput from 'react-phone-number-input'
+
 import {
   FormControl,
-  FormDescription,
   FormField,
   FormItem,
   FormLabel,
@@ -10,13 +15,18 @@ import {
 } from "@/components/ui/form";
 
 import { Input } from "@/components/ui/input";
-import { Control, Form } from "react-hook-form";
-import { FormFieldType } from "./forms/PatientForm";
-import Image from "next/image";
-import { Phone } from "lucide-react";
 
-import 'react-phone-number-input/style.css'
-import PhoneInput from 'react-phone-number-input'
+
+export enum FormFieldType {
+  INPUT = "INPUT",
+  TEXTAREA = "textarea",
+  PHONE_INPUT = "phoneInput",
+  CHECKBOX = "checkbox",
+  DATE_PICKER = "datePicker",
+  SELECT = "select",
+  SKELETON = "skeleton",
+}
+
 
 interface CustomProps {
   control: Control<any>;
@@ -43,7 +53,7 @@ const RenderField = ({field, props}: { field: any; props: CustomProps }) => {
         <div className="flex rounded-md border border-dark-500 bg-dark-400">
             {iconSrc && (
 
-              <img
+              <Image
                 src={iconSrc}
                 height={24}
                 width={24}
