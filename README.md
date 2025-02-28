@@ -24,6 +24,7 @@ HealthcarePulse is a healthcare management app allowing patients to register, bo
 
 
 🔋 Features
+
 👉 Register as a Patient: Users can sign up and create a personal profile as a patient.
 
 👉 Book a New Appointment with Doctor: Patients can schedule appointments with doctors at their convenience and can book multiple appointments.
