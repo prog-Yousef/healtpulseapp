@@ -1,13 +1,16 @@
 /* eslint-disable no-unused-vars */
 
+
 declare type SearchParamProps = {
     params: { [key: string]: string };
     searchParams: { [key: string]: string | string[] | undefined };
   };
-  
+
+
   declare type Gender = "Male" | "Female" | "Other";
   declare type Status = "pending" | "scheduled" | "cancelled";
-  
+
+
   declare interface CreateUserParams {
     name: string;
     email: string;
@@ -16,7 +19,8 @@ declare type SearchParamProps = {
   declare interface User extends CreateUserParams {
     $id: string;
   }
-  
+
+
   declare interface RegisterUserParams extends CreateUserParams {
     userId: string;
     birthDate: Date;
@@ -37,7 +41,8 @@ declare type SearchParamProps = {
     identificationDocument: FormData | undefined;
     privacyConsent: boolean;
   }
-  
+
+
   declare type CreateAppointmentParams = {
     userId: string;
     patient: string;
@@ -47,7 +52,8 @@ declare type SearchParamProps = {
     status: Status;
     note: string | undefined;
   };
-  
+
+
   declare type UpdateAppointmentParams = {
     appointmentId: string;
     userId: string;
