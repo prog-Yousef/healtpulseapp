@@ -24,7 +24,6 @@ HealthcarePulse is a healthcare management app allowing patients to register, bo
 * ShadCN
 * Twilio
 
-
 🔋 Features
 
 👉 Register as a Patient: Users can sign up and create a personal profile as a patient.
