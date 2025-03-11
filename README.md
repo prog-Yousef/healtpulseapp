@@ -10,7 +10,6 @@
   </div>
 
 
-
 🤖 Introduction
 HealthcarePulse is a healthcare management app allowing patients to register, book, and manage appointments with doctors. It offers scheduling, confirmation, and cancellation tools, along with SMS notifications. Built with Next.js, Appwrite, Typescript, TailwindCSS, ShadCN, and Twilio for modern functionality and seamless performance.
 
