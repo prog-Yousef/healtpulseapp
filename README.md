@@ -10,7 +10,6 @@
     <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=FD366E" alt="appwrite" />
   </div>
 
-  
 
 
 
